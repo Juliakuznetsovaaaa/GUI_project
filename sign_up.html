@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="form_container row" id="sign_up_form">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate" required>
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate" required>
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validation password" required>
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="repeat_password" type="password" class="validation password" required>
+                    <label for="repeat_password">Repeat password</label>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn waves-effect waves-light col s4 offset-s4" type="submit" id="sign_up_btn">
+                    Sign up
+                </button>
+            </div>
+        </form>
+        <!--<div class="row">
+            <div class="col s6"> Already registered? </div>
+            <div class="underlined_text col s5" id="sign_in_link"> Sign in! </div>
+        </div>-->
+    </div>
+
+</div>
+<script type="module" src="form.js"></script>
+
+</body>
+
+</html>
