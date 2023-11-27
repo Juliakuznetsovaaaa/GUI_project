@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/Juliakuznetsovaaaa/GUI_project.git",
   "author": "Victoria Tabakova <vrtabakova@gmail.com>",
+  "scripts": {
+    "dev": "tailwindcss -o ./dist/output.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.5"
   },
