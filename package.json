@@ -1,0 +1,11 @@
+{
+  "name": "gui_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Juliakuznetsovaaaa/GUI_project.git",
+  "author": "Victoria Tabakova <vrtabakova@gmail.com>",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "license": "MIT"
+}
