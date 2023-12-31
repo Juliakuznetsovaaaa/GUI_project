@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<!--bg-blue-400, hover:bg-blue-500-->
+<body>
+    <div class="flex justify-center items-center h-screen bg-blue-400">
+        <div class="w-96 p-6 shadow-lg bg-white rounded-md">
+            <h1 class="text-3xl block text-center font-semibold">Register</h1>
+            <hr class="mt-3">
+            <div class="mt-3">
+                <label for="username" class="block text-base mb-2">Username</label>
+                <input type="text" id="username" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" placeholder="Enter username"/>
+            </div>
+            <div class="mt-3">
+                <label for="email" class="block text-base mb-2">Email</label>
+                <input type="text" id="email" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" placeholder="Enter email"/>
+            </div>
+            <div class="mt-3">
+                <label for="password" class="block text-base mb-2">Password</label>
+                <input type="text" id="password" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" placeholder="Enter password"/>
+            </div>
+            <div class="mt-3">
+                <label for="repeat_password" class="block text-base mb-2">Repeat password</label>
+                <input type="text" id="repeat_password" class="border w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600" placeholder="Repeat password"/>
+            </div>
+            <div>
+                <div class="mt-5">
+                    <button class=" bg-blue-400 text-blue-50 py-1 w-full rounded-md hover:bg-blue-500 font-semibold" id="sign_up_btn">Resister</button>
+                </div>
+                <div>
+                    <a href="#" class="text-blue-600 font-semibold" id="sign_in_page_btn">Already register? </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="module" src="navigation_sign_up.js"></script>
+
+</body>
+
+</html>
